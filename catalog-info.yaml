@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: try_git
+  annotations:
+    github.com/project-slug: piixelize/try_git
+  namespace: default
+spec:
+  type: other
+  lifecycle: unknown
+  owner: Group:default/demo
